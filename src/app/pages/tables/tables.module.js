@@ -16,19 +16,19 @@
           template : '<ui-view  autoscroll="true" autoscroll-body-top></ui-view>',
           abstract: true,
           controller: 'TablesPageCtrl',
-          title: 'Tables',
+          title: 'Tablas',
           sidebarMeta: {
             icon: 'ion-grid',
             order: 300,
           },
-        }).state('tables.basic', {
+        })/*.state('tables.basic', {
           url: '/basic',
           templateUrl: 'app/pages/tables/basic/tables.html',
           title: 'Basic Tables',
           sidebarMeta: {
             order: 0,
           },
-        }).state('tables.smart', {
+        })*/.state('tables.smart', {
           url: '/smart',
           templateUrl: 'app/pages/tables/smart/tables.html',
           title: 'Smart Tables',
